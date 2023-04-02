@@ -1,0 +1,49 @@
+* {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+textarea {
+  resize: none;
+}
+
+.clear {
+  margin-top: 50px;
+}
+
+#author {
+  width: 100%;
+  height: 4%;
+  font-size: 1.3em;
+}
+
+.is-h {
+  font-weight: bold;
+  font-family: cursive;
+  margin-top: 2%;
+}
+
+#message {
+  width: 100%;
+  font-size: 1.5em;
+}
+
+.is-button {
+  cursor: pointer;
+  color: white;
+  background-color: green;
+  width: 25%;
+  height: 50px;
+  margin-top: 1%;
+  outline: none; /* Убираем линию вокруг кнопки при нажатии */
+  font-weight: bold;
+  font-family: cursive;
+  font-size: 1.2em;
+  border: none;
+  transition: all 0.3s ease-out;
+}
+
+.is-button:hover {
+  color: black;
+  background: rgb(48, 184, 66);
+}
